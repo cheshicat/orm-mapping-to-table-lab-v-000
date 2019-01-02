@@ -26,4 +26,9 @@ class Student
     DB[:conn].execute(sql)
   end
 
+  def save
+    sql = <<-SQL
+      SQL
+  end
+
 end
